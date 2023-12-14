@@ -65,6 +65,15 @@ select
     ifnull(concat(round((((Revenue - PMRevenue) / PMRevenue) * 100),1), " %"), "") as MoM_rev_diff_perc
 from cte;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q3: Generates a report with month-wise profit analysis based on the "ecommerce_data" table. The results include columns for months, current month profit, previous month profit (PMProfit), month-over-month profit difference, and month-over-month profit difference percentage.  
 
@@ -88,6 +97,16 @@ select
 from cte;
 ```
 
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
+
 #### ✒ Q4: Retrieves the top 5 products based on total revenue from the "ecommerce_data" table. 
 
 ```sql
@@ -99,6 +118,16 @@ group by product_name
 order by sum(sales_per_order) desc limit 5;
 ```
 
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
+
 ### ✒ Q5: Retrieves the top 5 Customers based on total revenue from the "ecommerce_data" table. 
 
 ```sql
@@ -109,6 +138,15 @@ from ecommerce_data
 group by customer_last_name
 order by sum(sales_per_order) desc limit 5;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q6: Generates a report to analyze sales revenue for different regions and product categories from the "ecommerce_data" table. The results include columns for region, category, revenue, and a rank indicating the ranking of each category within its respective region based on revenue. 
 
@@ -130,6 +168,15 @@ select
     dense_rank() over(partition by Region order by Revenue desc) rnk
 from cte;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q7: Generates a report to analyze sales revenue for different regions and states from the "ecommerce_data" table. The results include columns for region, state, revenue, and a dense rank indicating the ranking of each state within its respective region based on descending revenue values. The final query filters the results to include only the top 5 states with the highest revenue in each region. 
 
@@ -153,6 +200,15 @@ select
 from cte
 where rnk <= 5;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q8: Analyze total orders and profit based on different combinations of shipping types and payment modes from the "ecommerce_data" table.  
 
@@ -166,6 +222,15 @@ from ecommerce_data
 group by Shipping_type, Payment_mode
 order by Shipping_type;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q9: Analyze total orders and revenue for different cities from the "ecommerce_data" table. Display Top 5 City based on Highest Revenue.
 
@@ -187,6 +252,15 @@ select
 from cte
 where rnk <= 5;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### This comprehensive approach was tailored specifically for the US-based e-commerce company, aiming to empower stakeholders with actionable insights. By combining SQL analysis and Power BI visualization, the project delivered a dynamic and user-friendly analytics solution, facilitating informed decision-making and strategic planning based on the latest data.
 
