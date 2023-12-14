@@ -9,7 +9,7 @@
 
 ### Project Steps:
 
-#### SQL Database Connection and Power BI Integration:: The initial phase involved importing the e-commerce dataset into MySQL and cleaning it to ensure data accuracy and relevance. After loading the e-commerce dataset into MySQL, the next step involved establishing a connection between MySQL and Power BI. This connection facilitated real-time data retrieval and updates, ensuring that the Power BI dashboard reflected the most recent insights from the MySQL database.
+#### SQL Database Connection and Power BI Integration: The initial phase involved importing the e-commerce dataset into MySQL and cleaning it to ensure data accuracy and relevance. After loading the e-commerce dataset into MySQL, the next step involved establishing a connection between MySQL and Power BI. This connection facilitated real-time data retrieval and updates, ensuring that the Power BI dashboard reflected the most recent insights from the MySQL database.
 
 #### Query Optimization and Transformation: SQL queries were optimized to efficiently retrieve the required data for analysis. Transformation steps were implemented to shape the data according to the specific requirements of the Power BI dashboard. This included handling data types, aggregating information, and preparing the dataset for meaningful visualizations.
 
@@ -19,12 +19,12 @@
 
 #### Power BI Dashboard Creation: Leveraging Power BI's capabilities, a comprehensive sales dashboard was created. The dashboard incorporated visually appealing and interactive elements to represent key metrics, such as total sales, profit margins, etc. Filters and slicers were implemented to allow users to explore data based on various dimensions, providing a tailored and user-friendly experience
 
-### Dynamic Data Updates: The real-time connection between MySQL and Power BI ensured that the dashboard received automatic updates as new data became available. This dynamic feature enabled stakeholders to make informed decisions based on the latest information, contributing to the agility and responsiveness of the analytics solution.
+#### Dynamic Data Updates: The real-time connection between MySQL and Power BI ensured that the dashboard received automatic updates as new data became available. This dynamic feature enabled stakeholders to make informed decisions based on the latest information, contributing to the agility and responsiveness of the analytics solution.
 
 
 ### Insights
 
-### ✒ Q1: Generates a summary report from the "ecommerce_data" table, including the total revenue, total profit, total number of orders, and the number of distinct customers.  ?
+#### ✒ Q1: Generates a summary report from the "ecommerce_data" table, including the total revenue, total profit, total number of orders, and the number of distinct customers.  ?
 
 ```sql
 select 
@@ -35,7 +35,7 @@ select
 from ecommerce_data;
 ```
 
-### ✒ Q2: Calculate month-over-month revenue differences and percentages for the "ecommerce_data" table. It creates a result set that includes columns for months, Total revenue, previous month revenue (PMRevenue), month-over-month revenue difference, and month-over-month revenue difference percentage.  
+#### ✒ Q2: Calculate month-over-month revenue differences and percentages for the "ecommerce_data" table. It creates a result set that includes columns for months, Total revenue, previous month revenue (PMRevenue), month-over-month revenue difference, and month-over-month revenue difference percentage.  
 
 ```sql
 with cte as
@@ -57,7 +57,7 @@ select
 from cte;
 ```
 
-### ✒ Q3: Generates a report with month-wise profit analysis based on the "ecommerce_data" table. The results include columns for months, current month profit, previous month profit (PMProfit), month-over-month profit difference, and month-over-month profit difference percentage.  
+#### ✒ Q3: Generates a report with month-wise profit analysis based on the "ecommerce_data" table. The results include columns for months, current month profit, previous month profit (PMProfit), month-over-month profit difference, and month-over-month profit difference percentage.  
 
 ```sql
 with cte as
@@ -79,7 +79,7 @@ select
 from cte;
 ```
 
-### ✒ Q4: Retrieves the top 5 products based on total revenue from the "ecommerce_data" table. 
+#### ✒ Q4: Retrieves the top 5 products based on total revenue from the "ecommerce_data" table. 
 
 ```sql
 select 
@@ -101,7 +101,7 @@ group by customer_last_name
 order by sum(sales_per_order) desc limit 5;
 ```
 
-### ✒ Q6: Generates a report to analyze sales revenue for different regions and product categories from the "ecommerce_data" table. The results include columns for region, category, revenue, and a rank indicating the ranking of each category within its respective region based on revenue. 
+#### ✒ Q6: Generates a report to analyze sales revenue for different regions and product categories from the "ecommerce_data" table. The results include columns for region, category, revenue, and a rank indicating the ranking of each category within its respective region based on revenue. 
 
 ```sql
 with cte as 
@@ -122,7 +122,7 @@ select
 from cte;
 ```
 
-### ✒ Q7: Generates a report to analyze sales revenue for different regions and states from the "ecommerce_data" table. The results include columns for region, state, revenue, and a dense rank indicating the ranking of each state within its respective region based on descending revenue values. The final query filters the results to include only the top 5 states with the highest revenue in each region. 
+#### ✒ Q7: Generates a report to analyze sales revenue for different regions and states from the "ecommerce_data" table. The results include columns for region, state, revenue, and a dense rank indicating the ranking of each state within its respective region based on descending revenue values. The final query filters the results to include only the top 5 states with the highest revenue in each region. 
 
 ```sql
 with cte as 
@@ -145,7 +145,7 @@ from cte
 where rnk <= 5;
 ```
 
-### ✒ Q8: Analyze total orders and profit based on different combinations of shipping types and payment modes from the "ecommerce_data" table.  
+#### ✒ Q8: Analyze total orders and profit based on different combinations of shipping types and payment modes from the "ecommerce_data" table.  
 
 ```sql
 select 
@@ -158,7 +158,7 @@ group by Shipping_type, Payment_mode
 order by Shipping_type;
 ```
 
-### ✒ Q9: Analyze total orders and revenue for different cities from the "ecommerce_data" table. Display Top 5 City based on Highest Revenue.
+#### ✒ Q9: Analyze total orders and revenue for different cities from the "ecommerce_data" table. Display Top 5 City based on Highest Revenue.
 
 ```sql
 with cte as 
