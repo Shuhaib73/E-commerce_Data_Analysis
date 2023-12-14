@@ -1,7 +1,7 @@
 ## E-Commerce Database Analysis (Using MySQL and Power BI)
 
 <p align="center">
-    <img src="[https://github.com/Shuhaib73/E-commerce_Data_Analysis/tree/main/ecom_problem_stmt/ecommerce_cover.jpg](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg)", width="400", height="250">
+    <img src="(ttps://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg" />
 
 ## Objective
 
