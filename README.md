@@ -1,4 +1,4 @@
-# E-Commerce Database Analysis (Using MySQL and Power BI)
+## E-Commerce Database Analysis (Using MySQL and Power BI)
 
 <p align="center">
     <img src='C:/Users/user/Desktop/Projects/Projects/Sales_proj MySQL/ecom_problem_stmt/ecommerce_cover.jpg'>
