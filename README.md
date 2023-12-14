@@ -1,29 +1,29 @@
 ## E-Commerce Database Analysis (Using MySQL and Power BI)
 
 <p align="center">
-    <img src="(ttps://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg" />
+    <img src="(ttps://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg"  width="400" height="250"  />
 
 ## Objective
 
-### In this project, the objective was to conduct a comprehensive analysis of an e-commerce dataset collected from US based sales comapny, with focus on understanding sales performance. The project involved various steps, including data loading, cleaning, Modeling and processing, cohort analysis, Time Series analysis, SQL queries for in-depth dataset exploration, and  Power BI was utilized to create an interactive sales dashboard for comprehensive data visualization.
+#### In this project, the objective was to conduct a comprehensive analysis of an e-commerce dataset collected from US based sales comapny, with focus on understanding sales performance. The project involved various steps, including data loading, cleaning, Modeling and processing, cohort analysis, Time Series analysis, SQL queries for in-depth dataset exploration, and  Power BI was utilized to create an interactive sales dashboard for comprehensive data visualization.
 
 ### Project Steps:
 
-### SQL Database Connection and Power BI Integration:: The initial phase involved importing the e-commerce dataset into MySQL and cleaning it to ensure data accuracy and relevance. After loading the e-commerce dataset into MySQL, the next step involved establishing a connection between MySQL and Power BI. This connection facilitated real-time data retrieval and updates, ensuring that the Power BI dashboard reflected the most recent insights from the MySQL database.
+#### SQL Database Connection and Power BI Integration:: The initial phase involved importing the e-commerce dataset into MySQL and cleaning it to ensure data accuracy and relevance. After loading the e-commerce dataset into MySQL, the next step involved establishing a connection between MySQL and Power BI. This connection facilitated real-time data retrieval and updates, ensuring that the Power BI dashboard reflected the most recent insights from the MySQL database.
 
-### Query Optimization and Transformation: SQL queries were optimized to efficiently retrieve the required data for analysis. Transformation steps were implemented to shape the data according to the specific requirements of the Power BI dashboard. This included handling data types, aggregating information, and preparing the dataset for meaningful visualizations.
+#### Query Optimization and Transformation: SQL queries were optimized to efficiently retrieve the required data for analysis. Transformation steps were implemented to shape the data according to the specific requirements of the Power BI dashboard. This included handling data types, aggregating information, and preparing the dataset for meaningful visualizations.
 
-### Time-Series Analysis: Time-series insights were explored, revealing patterns and trends that could inform strategic decisions. This analysis laid the foundation for dynamic and time-sensitive visualizations in the Power BI dashboard.
+#### Time-Series Analysis: Time-series insights were explored, revealing patterns and trends that could inform strategic decisions. This analysis laid the foundation for dynamic and time-sensitive visualizations in the Power BI dashboard.
 
-### SQL Queries: To extract detailed insights, SQL queries were implemented. This involved identifying distinct Category, counting unique customers, and calculating the total Revenue, Profit. These queries provided crucial information about various aspects of the e-commerce data.
+#### SQL Queries: To extract detailed insights, SQL queries were implemented. This involved identifying distinct Category, counting unique customers, and calculating the total Revenue, Profit. These queries provided crucial information about various aspects of the e-commerce data.
 
-### Power BI Dashboard Creation: Leveraging Power BI's capabilities, a comprehensive sales dashboard was created. The dashboard incorporated visually appealing and interactive elements to represent key metrics, such as total sales, profit margins, etc. Filters and slicers were implemented to allow users to explore data based on various dimensions, providing a tailored and user-friendly experience
+#### Power BI Dashboard Creation: Leveraging Power BI's capabilities, a comprehensive sales dashboard was created. The dashboard incorporated visually appealing and interactive elements to represent key metrics, such as total sales, profit margins, etc. Filters and slicers were implemented to allow users to explore data based on various dimensions, providing a tailored and user-friendly experience
 
 ### Dynamic Data Updates: The real-time connection between MySQL and Power BI ensured that the dashboard received automatic updates as new data became available. This dynamic feature enabled stakeholders to make informed decisions based on the latest information, contributing to the agility and responsiveness of the analytics solution.
 
-### This comprehensive approach was tailored specifically for the US-based e-commerce company, aiming to empower stakeholders with actionable insights. By combining SQL analysis and Power BI visualization, the project delivered a dynamic and user-friendly analytics solution, facilitating informed decision-making and strategic planning based on the latest data.
+#### This comprehensive approach was tailored specifically for the US-based e-commerce company, aiming to empower stakeholders with actionable insights. By combining SQL analysis and Power BI visualization, the project delivered a dynamic and user-friendly analytics solution, facilitating informed decision-making and strategic planning based on the latest data.
 
-## Insights
+### Insights
 
 ### ✒ Q1: Generates a summary report from the "ecommerce_data" table, including the total revenue, total profit, total number of orders, and the number of distinct customers.  ?
 
