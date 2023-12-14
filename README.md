@@ -1,11 +1,11 @@
 ## E-Commerce Database Analysis (Using MySQL and Power BI)
 
 <p align="center">
-    <img src='C:/Users/user/Desktop/Projects/Projects/Sales_proj MySQL/ecom_problem_stmt/ecommerce_cover.jpg'>
+    <img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/tree/main/ecom_problem_stmt/ecommerce_cover.jpg", width="400", height="250">
 
-# Objective
+## Objective
 
-## In this project, the objective was to conduct a comprehensive analysis of an e-commerce dataset collected from US based sales comapny, with focus on understanding sales performance. The project involved various steps, including data loading, cleaning, Modeling and processing, cohort analysis, Time Series analysis, SQL queries for in-depth dataset exploration, and  Power BI was utilized to create an interactive sales dashboard for comprehensive data visualization.
+### In this project, the objective was to conduct a comprehensive analysis of an e-commerce dataset collected from US based sales comapny, with focus on understanding sales performance. The project involved various steps, including data loading, cleaning, Modeling and processing, cohort analysis, Time Series analysis, SQL queries for in-depth dataset exploration, and  Power BI was utilized to create an interactive sales dashboard for comprehensive data visualization.
 
 ### Project Steps:
 
