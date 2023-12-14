@@ -21,7 +21,6 @@
 
 ### Dynamic Data Updates: The real-time connection between MySQL and Power BI ensured that the dashboard received automatic updates as new data became available. This dynamic feature enabled stakeholders to make informed decisions based on the latest information, contributing to the agility and responsiveness of the analytics solution.
 
-#### This comprehensive approach was tailored specifically for the US-based e-commerce company, aiming to empower stakeholders with actionable insights. By combining SQL analysis and Power BI visualization, the project delivered a dynamic and user-friendly analytics solution, facilitating informed decision-making and strategic planning based on the latest data.
 
 ### Insights
 
@@ -179,3 +178,6 @@ select
 from cte
 where rnk <= 5;
 ```
+
+#### This comprehensive approach was tailored specifically for the US-based e-commerce company, aiming to empower stakeholders with actionable insights. By combining SQL analysis and Power BI visualization, the project delivered a dynamic and user-friendly analytics solution, facilitating informed decision-making and strategic planning based on the latest data.
+
