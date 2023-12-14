@@ -34,6 +34,15 @@ select
     format(count(distinct customer_id), 0) as Number_of_Customers
 from ecommerce_data;
 ```
+<details>
+<summary>
+Click here to see the snapshot of output
+</summary>
+
+<p align="center">
+<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+
+</details>
 
 #### ✒ Q2: Calculate month-over-month revenue differences and percentages for the "ecommerce_data" table. It creates a result set that includes columns for months, Total revenue, previous month revenue (PMRevenue), month-over-month revenue difference, and month-over-month revenue difference percentage.  
 
