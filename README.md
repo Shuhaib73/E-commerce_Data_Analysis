@@ -1,4 +1,4 @@
-## E-Commerce Database Analysis (Using MySQL and Power BI)
+## E-Commerce Data Analysis (Using MySQL and Power BI)
 
 <p align="center">
     <img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg"  width="400" height="250"  />
@@ -41,7 +41,8 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<kbd><img src="[https://github.com/fikrionii/eCommerce-Database-Analysis-with-SQL/blob/main/images/erd1.png](https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG)" alt="Image" width="580" height="400"></kbd>
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG" width="580" height="400" />
+</p>
 
 </details>
 
