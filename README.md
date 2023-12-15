@@ -61,9 +61,9 @@ order by min(order_date)
 )
 select 
 	Months,
-    Revenue,
-    ifnull(PMRevenue, "") as PMRevenue,
-    ifnull(Revenue - PMRevenue, "") as MoM_Revenue_Diff,
+    format(Revenue, 0) Revenue,
+    ifnull(format(PMRevenue, 0), "") as PMRevenue,
+    ifnull(format(Revenue - PMRevenue, 0), "") as MoM_Revenue_Diff,
     ifnull(concat(round((((Revenue - PMRevenue) / PMRevenue) * 100),1), " %"), "") as MoM_rev_diff_perc
 from cte;
 ```
@@ -92,9 +92,9 @@ order by min(order_date)
 )
 select 
 	Months,
-    Profit,
-    ifnull(PMProfit, "") as PMProfit,
-    ifnull(Profit - PMProfit, "") as MoM_Profit_Diff,
+    format(Profit, 2) as Profit,
+    ifnull(format(PMProfit, 0), "") as PMProfit,
+    ifnull(format(Profit - PMProfit, 0), "") as MoM_Profit_Diff,
     ifnull(concat(round((((Profit - PMProfit) / PMProfit) * 100),1), " %"), "") as MoM_Prf_diff_perc
 from cte;
 ```
