@@ -1,7 +1,7 @@
 ## E-Commerce Data Analysis (Using MySQL and Power BI) 
 
 <p align="center">
-    <img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/ecommerce_cover.jpg"  width="400" height="250"  />
+    <img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/ecommerce_cover.jpg"  width="400" height="250"  />
 </p>
 
 ## Objective
@@ -41,7 +41,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q1.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q1.PNG" />
 </p>
 
 </details>
@@ -73,7 +73,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q22.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q22.PNG" />
 </p>
 </details>
 
@@ -105,7 +105,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q3.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q3.PNG" />
 </p>
 </details>
 
@@ -126,7 +126,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q4.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q4.PNG" />
 </p>
 </details>
 
@@ -146,7 +146,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q5.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q5.PNG" />
 </p>
 </details>
 
@@ -176,7 +176,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q6.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q6.PNG" />
 </p>
 </details>
 
@@ -208,7 +208,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q7.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q7.PNG" />
 </p>
 </details>
 
@@ -230,7 +230,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q8.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q8.PNG" />
 </p>
 </details>
 
@@ -260,7 +260,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q9.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/Images/Q9.PNG" />
 </p>
 </details>
 
