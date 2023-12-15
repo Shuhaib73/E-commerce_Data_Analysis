@@ -73,7 +73,7 @@ Click here to see the snapshot of output
 </summary>
 
 <p align="center">
-<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q2.PNG" />
+<img src="https://github.com/Shuhaib73/E-commerce_Data_Analysis/blob/main/ecom_problem_stmt/Q22.PNG" />
 </p>
 </details>
 
